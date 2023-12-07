@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <title>youTube downloader | Septa GIT</title>
+    <link rel="icon" href="images/fevicon.png" />
+    <meta name="title" content="youTube video downloader | Septa GIT" />
+    <meta
+      name="description"
+      content="Download any YouTube video in all available qualities and formats! | Septa GIT"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://septa-git.github.io/youtube-video-downloder/"
+    />
+    <meta property="og:title" content="youTube video downloader | Septa GIT" />
+    <meta
+      property="og:description"
+      content="Download any YouTube video in all available qualities and formats!"
+    />
+    <meta property="og:image" content="images/fevicon.png" />
+
+    <meta property="twitter:card" content="images/fevicon.png" />
+    <meta
+      property="twitter:url"
+      content="https://septa-git.github.io/youtube-video-downloder/"
+    />
+    <meta
+      property="twitter:title"
+      content="youTube video downloader | Septa GIT"
+    />
+    <meta
+      property="twitter:description"
+      content="Download any YouTube video in all available qualities and formats! | Septa GIT "
+    />
+    <meta property="twitter:image" content="images/fevicon.png" />
+  </head>
+  <body class="unselectable">
+    <div class="main-wrapper cv">
+      <div class="inner-controller">
+        <div class="close-btn c">
+          <i class="bi bi-x"></i>
+        </div>
+        <div class="yt-info">
+          <div class="yt-image">
+            <img
+              src="images/fevicon.webp"
+              alt="yt-thumbnail"
+              class="yt-info-img"
+            />
+            <div class="yt-text">
+              <h1 class="yt-title"></h1>
+              <div class="cv">
+                <img
+                  src="images/loading.svg"
+                  alt="YouTube Icon"
+                  class="yt-channel-icon"
+                />
+                <h4 class="yt-channel-name"></h4>
+              </div>
+              <div class="yt-d"></div>
+            </div>
+          </div>
+          <div class="download-item"></div>
+        </div>
+        <div class="loading-screen c">
+          <img src="images/loading.svg" alt="Septa GIT" />
+        </div>
+      </div>
+      <div class="input-wrap c">
+        <div class="inner-wrapper">
+          <img class="main-logo" src="images/tl.webp" alt="Hrshil" />
+          <div class="link-box">
+            <input
+              type="text"
+              class="link-input"
+              placeholder="Video link here..."
+            />
+          </div>
+          <p class="intro-description">
+            Download any YouTube video in all available qualities and formats!
+          </p>
+
+          <div class="social-wrap c">
+            <a
+              href="https://github.com/septa-git/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              href="https://twitter.com/JhonHalbertBert"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- External CDNs -->
+  <script async src="https://cdn.splitbee.io/sb.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+  <!-- App Scripts -->
+  <script src="js/youtube.js"></script>
+  <script src="js/app.ui.js"></script>
+  <script src="js/app.js"></script>
+</html>
